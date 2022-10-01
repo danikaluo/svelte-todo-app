@@ -1,38 +1,12 @@
-# create-svelte
+# svelte-todo-app
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
-## Creating a project
+Link to app: https://cs279-svelte-todo-app.herokuapp.com/
 
-If you're seeing this, you've probably already done this step. Congrats!
+Tutorial followed: https://www.youtube.com/watch?v=AV04qN6frmE
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Instructions:
+To add items to the todo list, users can input text into the text box and press add or hit the enter key to add the item to the list. The button with a check allows the user to mark items as completed. The button with an x deletes the item from the list when pressed.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Reflection:
+Svelte is a JavaScript framework for making interactive webpages and web applications. Svelte is different that previous technologies because it runs at build time, which converts the components into highly efficient  code that updates the DOM. This means less complex code, which saves time and increases readability. Firebase is a Google product that is a mobile application development platform that helps users build and improve application. It was a very useful tool for storing app data in a dataset and it was easily modified by calling certain functions that connected the javascript to the data and you can see real time changes. It also allows data to be stored across users.
